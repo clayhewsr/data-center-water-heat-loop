@@ -1,6 +1,6 @@
 # data-center-water-heat-loop
-Public concept for closed-loop water reuse, data-center cooling, waste-heat recovery, and AI optimization in Memphis-scale infrastructure.
-# Memphis Data Center Water & Heat Loop Ecosystem
+Public concept for closed-loop water reuse, data-center cooling, waste-heat recovery, and AI optimization in scale infrastructure.
+# Data Center Water & Heat Loop Ecosystem
 
 A public concept architecture for a closed-loop water, cooling, heat-reuse, and energy-optimization system for large AI/data-center campuses.
 
