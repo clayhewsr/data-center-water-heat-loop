@@ -1,36 +1,30 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Control Center Prototype</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
 <h1>AI Control Center</h1>
 
 <div class="card">
     <h2>Cooling System</h2>
-    <p>Status: <strong>Normal</strong></p>
+    <p id="cooling">🟢 Normal</p>
 </div>
 
 <div class="card">
     <h2>Water Loop</h2>
-    <p>Status: <strong>Active</strong></p>
+    <p id="water">🟢 Active</p>
 </div>
 
 <div class="card">
     <h2>Heat Recovery</h2>
-    <p>Status: <strong>Operating</strong></p>
+    <p id="heat">🟢 Operating</p>
 </div>
 
 <div class="card">
-    <h2>Sensors</h2>
-    <p>Status: <strong>Online</strong></p>
+    <h2>Sensor Network</h2>
+    <p id="sensor">🟢 Online</p>
+</div>
+
+<div class="card">
+    <h2>AI Recommendation</h2>
+    <p id="recommendation">
+        System operating normally. Continue monitoring.
+    </p>
 </div>
 
 <script src="app.js"></script>
-
-</body>
-</html>
