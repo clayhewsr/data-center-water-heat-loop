@@ -8,11 +8,22 @@ body {
 
 h1 {
     color: #38bdf8;
+    margin-bottom: 25px;
 }
 
 .card {
     background: #1e293b;
     padding: 20px;
     border-radius: 12px;
-    margin-top: 20px;
+    margin-bottom: 18px;
+    border: 1px solid #334155;
+}
+
+.card h2 {
+    margin-top: 0;
+    color: #e2e8f0;
+}
+
+.card p {
+    font-size: 18px;
 }
