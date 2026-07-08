@@ -2,6 +2,23 @@
 
 Public engineering concept for closed-loop water reuse, AI-assisted cooling, thermal energy recovery, and sustainable infrastructure for large-scale data centers.
 
+## Quick Demo
+
+Run the first status demo:
+
+```bash
+python demo/status-demo.py
+
+DATA CENTER WATER & HEAT LOOP STATUS
+Water Loop:        GREEN
+Cooling Loop:      GREEN
+Heat Recovery:     ACTIVE
+Thermal Storage:   87%
+Pump System:       ONLINE
+Sensor Network:    ONLINE
+AI Control Center: READY
+Digital Twin:      SYNCED
+Overall Status:    HEALTHY
 ---
 
 ## Project Overview
