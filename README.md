@@ -1,126 +1,53 @@
 # Data Center Water & Heat Loop Ecosystem
 
-Public engineering concept for closed-loop water reuse, AI-assisted cooling, thermal energy recovery, and sustainable infrastructure for large-scale data centers.
+This project presents a closed-loop ecosystem for water reuse in data-center cooling, waste-heat recovery, and simulated operations monitoring to support resilient and sustainable infrastructure planning.
 
-## Quick Demo
+![Data Center Water & Heat Loop Ecosystem](assets/data%20center%20eco.png)
 
-Run the first status demo:
+## Working Prototype
+
+The Streamlit operations dashboard currently runs on simulated data and monitors:
+
+- water flow
+- supply and return temperatures
+- tank level
+- pump pressure
+- compute load
+- recovered heat
+- thermal storage
+- system health
+
+## Run Locally
 
 ```bash
-python demo/status-demo.py
-
-DATA CENTER WATER & HEAT LOOP STATUS
-Water Loop:        GREEN
-Cooling Loop:      GREEN
-Heat Recovery:     ACTIVE
-Thermal Storage:   87%
-Pump System:       ONLINE
-Sensor Network:    ONLINE
-AI Control Center: READY
-Digital Twin:      SYNCED
-Overall Status:    HEALTHY
----
-
-## Project Overview
-
-This project explores a modular data center infrastructure that combines:
-
-- Closed-loop water management
-- AI-assisted cooling optimization
-- Thermal energy recovery
-- Predictive maintenance
-- Digital Twin technology
-- Real-time monitoring
-- Sustainability
-- Operational resiliency
-
-The goal is to improve cooling efficiency, reduce water consumption, recover useful thermal energy, and provide intelligent operational awareness.
-
----
-
-## Repository Structure
-
-```
-assets/
-diagrams/
-docs/
-README.md
-CHANGELOG.md
+pip install -r requirements.txt
+streamlit run dashboard.py
 ```
 
----
+## Core Architecture
 
-## Engineering Documentation
-
-- System Overview
-- Architecture
-- Water Loop
+- Closed-Loop Water System
+- Liquid Cooling
 - Heat Recovery
-- Energy Management
-- Sensor Network
-- System Monitoring
-- AI Control Center
-- Operations Center
-- Dashboard
-- Digital Twin
-- Predictive Analytics
-- Safety
-- Resiliency
-- Deployment
-- Sustainability
-- Economics
-- Communications
-- References
-- Future Roadmap
+- Sensor and Monitoring Layer
+- Operations Dashboard
 
----
+## Repository Guide
 
-## Engineering Diagrams
+- [dashboard.py](dashboard.py)
+- [docs/](docs/)
+- [diagrams/](diagrams/)
+- [demo/](demo/)
+- [PROJECT-SUMMARY.md](PROJECT-SUMMARY.md)
+- [ROADMAP.md](ROADMAP.md)
 
-- System Architecture
-- Water Loop
-- Heat Recovery
-- Sensor Network
-- AI Control Center
-- Operations Center
-- Dashboard
-- Digital Twin
-- Predictive Analytics
-- Safety
-- Resiliency
-- Deployment
-- Sustainability
-- Economics
+## Current Status
 
----
+- Version: v0.2.0 prototype
+- Dashboard: working simulation
+- Real sensor integration: future work
+- Cloud deployment: future work
 
-## Project Objectives
+## Disclaimer
 
-- Reduce water consumption
-- Improve cooling efficiency
-- Recover waste heat
-- Increase operational reliability
-- Enable AI-assisted optimization
-- Support predictive maintenance
-- Improve sustainability
-- Lower operating costs
-
----
-
-## Status
-
-**Current Phase:** Documentation & Architecture
-
-Upcoming work:
-
-- Professional SVG engineering diagrams
-- Interactive system visualizations
-- GitHub Pages documentation
-- Expanded engineering specifications
-- Example deployment scenarios
-
----
-
-## License
-
-This repository is currently published as a public engineering concept for documentation and discussion purposes.
+This repository is a public engineering concept and simulated prototype. It is not a construction specification or a live facility control system.
